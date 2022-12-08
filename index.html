@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <p class="logo">PONSELVI K</p>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header_text">
+                <p>A FullStack Developer</p>
+                <h4>Hi, I'm <span>Ponselvi</span><br> I am a Web Developer</h4>
+            </div>
+        </div>
+    </div>
+
+<!----------------------------------- about ------------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/bg.png" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>
+                         I'm Ponselvi K.I have completed my 
+                            <!-- Schooling from V.H.N.School with 94.8%. <br> -->
+                        <!-- My Higher Secondary from V.H.N.Hr.Sec. with  83.5%.-->
+                        Graduation in Computer Science from Madurai Kamaraj University College with 7.21 CGPA.
+                        Besides studies i am active in all extra curriculam activities like Sports,social Work,Arts... <br>
+                        Now i am doing Web Developer Course from PREPBYTES.I have always wanted to explore <br> the creative side of the IT field. 
+                        That's why i choose this.I have done projects with HTML,CSS,JS,REACTJS,NODEJS,MONGODB...
+                    </p> 
+
+                    <br>
+                    <p style="color: white;">Languages/Library/Technology</p>
+                    <div class="skill_img">
+                        
+                        <div class="skills">
+                            <img src="./images/html.png">
+                            <img src="./images/css.png">
+                            <img src="./images/js.png">
+                            <img src="./images/bootstap.png">
+                            <img src="./images/react.png">
+                            <img src="./images/nodejs.png">
+                            <img src="./images/mongodb.png">
+                            <img src="./images/github.png">
+
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- -----my Portfolio----------------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Works</h1>
+        <div class="works-list">
+            <div class="work">
+                <img src="./images/clock.jpeg">
+            </div>
+            <div class="work">
+                <img src="./images/Todo.jpeg">
+            </div>
+            <div class="work">
+                <img src="./images/blog.jpeg">
+            </div>
+            <div class="work">
+                <img src="./images/animation.png">
+            </div>
+
+        </div>
+    </div>
+    <!-- --------------contact------------ -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa fa-paper-plane" aria-hidden="true"></i>  ponsselvi2@gmail.com</p>
+                    <p><i class="fa-sharp fa-solid fa-phone"></i>  9566652186</p>
+                    <p> <i class="fa-sharp fa-solid fa-location-pin"></i> Madurai,Tamil Nadu-625009</p>
+                    <a href="./images/PONSELVI's Resume.pdf" download class="btn btn2 ">Download CV</a>
+                </div>
+                
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+         <p>Copyright © ponselvi <i class="fa-solid fa-heart"></i> 2022.All rights reserved.</p>
+    </div>
+</div>
+
+        <script src="index.js"></script>
+</body>
+
+</html>
